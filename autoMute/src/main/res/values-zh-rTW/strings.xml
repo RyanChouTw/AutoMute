@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">靜音工具</string>
+    <string name="title_rule_list">靜音器</string>
+    <string name="title_setting">設定</string>
+    <string name="title_add_muter">新增靜音器</string>
+    <string name="title_edit_muter">修改靜音器</string>
+    <string name="action_add">新增</string>
+    <string name="action_settings">設定</string>
+    <string name="never">從不</string>
+    <string name="every_day">每天</string>
+    <string name="rule_default_title">靜音器</string>
+    <string name="missed_rule_has_been_deleted">該靜音器已被刪除</string>
+    <string name="please_enter_title">請輸入標題</string>
+    <string name="date">日期</string>
+    <string name="short_monday">一</string>
+    <string name="short_tuesday">二</string>
+    <string name="short_wednesday">三</string>
+    <string name="short_thursday">四</string>
+    <string name="short_friday">五</string>
+    <string name="short_saturday">六</string>
+    <string name="short_sunday">日</string>
+    <string name="action_done">完成</string>
+    <string name="enable_vibrate">開啟震動</string>
+    <string name="repeat">循環模式</string>
+    <string name="list_card_undo_title">還原</string>
+    <plurals name="rule_list_card_undo_items">
+        <item quantity="other">刪除靜音器</item>
+    </plurals>   
+    <string name="notification_title">靜音工具已啟動</string>
+    <string name="notification_content">所有聲音都被關閉</string>
+    <string name="notification_content_text_fmt">從%1$s到%2$s</string>
+    <string name="settings_disable_automute">停止靜音工具</string>    
+    <string name="warning_start_must_earlier_than_end">結束時間必須晚於開始時間</string>
+    <string name="warning_start_time_must_after_current">開始時間必須晚於現在</string>
+    <string name="warning_end_time_must_after_current">結束時間必須晚於現在</string>
+    <string name="warning_repeat_less_than_24">無法設定時間長度超過24小時的循環靜音功能</string>
+</resources>

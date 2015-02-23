@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+	<TextView
+            android:id="@+id/rule_card_title"
+            style="@style/rule_card_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp" />
+    
+    <TextView 
+        android:id="@+id/rule_card_period"
+        style="@style/rule_card_period"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+    
+    <LinearLayout
+        android:id="@+id/rule_card_repeat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rule_card_repeat_weekday_monday"
+            style="@style/rule_card_repeat_weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableBottom="@drawable/ic_checkbox_uncheck"
+            android:text="@string/short_monday" />
+
+        <TextView
+            android:id="@+id/rule_card_repeat_weekday_tuesday"
+            style="@style/rule_card_repeat_weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/short_tuesday"
+            android:drawableBottom="@drawable/ic_checkbox_uncheck" />
+        <TextView
+            android:id="@+id/rule_card_repeat_weekday_wednesday"
+            style="@style/rule_card_repeat_weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/short_wednesday"
+            android:drawableBottom="@drawable/ic_checkbox_uncheck" />
+        <TextView
+            android:id="@+id/rule_card_repeat_weekday_thursday"
+            style="@style/rule_card_repeat_weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/short_thursday"
+            android:drawableBottom="@drawable/ic_checkbox_uncheck" />
+        <TextView
+            android:id="@+id/rule_card_repeat_weekday_friday"
+            style="@style/rule_card_repeat_weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/short_friday"
+            android:drawableBottom="@drawable/ic_checkbox_uncheck" />
+        <TextView
+            android:id="@+id/rule_card_repeat_weekday_saturday"
+            style="@style/rule_card_repeat_weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/short_saturday"
+            android:drawableBottom="@drawable/ic_checkbox_uncheck" />
+        <TextView
+            android:id="@+id/rule_card_repeat_weekday_sunday"
+            style="@style/rule_card_repeat_weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/short_sunday"
+            android:drawableBottom="@drawable/ic_checkbox_uncheck" />
+                
+    </LinearLayout>
+        
+</LinearLayout>
